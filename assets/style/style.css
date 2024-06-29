@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --fontHighlight: "Luckiest Guy", cursive;
+    --defaultFont: "Open Sans", sans-serif;
+    --white100: #ffffff;
+    --white200: #f6f6f6;
+    --gray400: #23272A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: var(--defaultFont);
+    background-color: var(--white200);
+    width: 100%;
+    box-sizing: border-box;
+}
