@@ -25,3 +25,58 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
+
+header {
+    background: url('../img/HeaderBackground.jpg') no-repeat center center;
+    background-size: cover;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-family: var(--fontHighlight);
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--white100);
+    width: 60%;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: var(--white100);
+    font-family: var(--defaultFont);
+    width: 95%;
+}
+
+header article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+
+header button {
+    height: 55px;
+    width: 95%;
+    background-color: var(--white100);
+    color: var(--gray400);
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    align-self: center;
+    border-radius: 30px;
+}
+
+header button:last-child {
+    background-color: var(--gray400);
+    color: var(--white100);
+}
