@@ -131,3 +131,13 @@ main section article p {
     font-size: 1.2rem;
     color: var(--gray400);
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--gray400);
+}
