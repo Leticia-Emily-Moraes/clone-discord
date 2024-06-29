@@ -80,3 +80,54 @@ header button:last-child {
     background-color: var(--gray400);
     color: var(--white100);
 }
+
+main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: var(--white100);
+    width: 100%;
+}
+
+main section:nth-of-type(even) {
+    background-color: var(--white200);
+}
+
+main section article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+main section article img {
+    width: 85%;
+    align-self: center;
+    object-fit: cover;
+}
+
+main section article h2 {
+    font-family: var(--defaultFont);
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--gray400);
+}
+
+main section article p {
+    font-family: var(--defaultFont);
+    font-size: 1.2rem;
+    color: var(--gray400);
+}
