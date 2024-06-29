@@ -141,3 +141,40 @@ footer {
     padding: 20px;
     background-color: var(--gray400);
 }
+
+@media screen and (min-width: 1032px) {
+    header {
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+
+    header article {
+        flex-direction: row;
+    }
+
+    header p {
+        width: 70%;
+    }
+
+    header h1 {
+        width: auto;
+    }
+
+    header button {
+        width: auto;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section:nth-of-type(even) {
+        background-color: var(--white200);
+        flex-direction: row-reverse;
+    }
+
+}
